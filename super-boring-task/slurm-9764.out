@@ -1,0 +1,7 @@
+make: 'build/super-boring-task' is up to date.
+Platform name: NVIDIA CUDA
+Device name: NVIDIA GeForce GTX 1060 6GB
+           function              OpenMP        OpenCL total      OpenCL copy-in       OpenCL kernel     OpenCL copy-out    OpenMP bandwidth    OpenCL bandwidth
+vector-times-vector             14489us            107764us             76123us               286us             31354us         26.0534GB/s         1319.89GB/s
+matrix-times-vector             48255us            391459us            377165us                26us             14267us          26.081GB/s         48405.3GB/s
+matrix-times-matrix           1480997us             16794us              8553us              5075us              3164us       0.0254887GB/s         7.43817GB/s
